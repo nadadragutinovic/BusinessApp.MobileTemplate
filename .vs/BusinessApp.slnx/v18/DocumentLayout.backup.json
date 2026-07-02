@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Apps and websites\\BusinessApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "BusinessApp\\MainPage.xaml",
+              "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\MainPage.xaml",
+              "RelativeToolTip": "BusinessApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-02T08:50:42.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Models\\LoginResponse.cs",
               "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Models\\LoginResponse.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\MauiProgram.cs",
               "RelativeDocumentMoniker": "BusinessApp\\MauiProgram.cs",
@@ -60,20 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
               "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-02T08:29:22.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Services\\IAuthenticationService.cs",

@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
+namespace BusinessApp.Features.Authentication.Models;
 
-namespace BusinessApp.Features.Authentication.Models
+public sealed class LoginRequest
 {
-    public sealed class LoginRequest
-    {
-        public string UserName { get; set; } = string.Empty;
+    public string UserName { get; set; } = string.Empty;
 
-        public string Password { get; set; } = string.Empty;
-    }
+    public string Password { get; set; } = string.Empty;
 }

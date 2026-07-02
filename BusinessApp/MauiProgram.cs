@@ -1,5 +1,7 @@
 using BusinessApp.Features.Authentication.Services;
-using BusinessApp.Views;
+using BusinessApp.Features.Authentication.ViewModels;
+using BusinessApp.Features.Authentication.Views;
+using BusinessApp.Features.Dashboard.Views;
 using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
@@ -22,8 +24,11 @@ namespace BusinessApp
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddTransient<LoginPage>();
             builder.Services.AddSingleton<IAuthenticationService, AuthenticationService>();
+            builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddTransient<LoginViewModel>();
+
+            builder.Services.AddTransient<DashboardPage>();
             return builder.Build();
         }
     }

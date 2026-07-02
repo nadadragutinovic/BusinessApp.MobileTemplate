@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Apps and websites\\BusinessApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\authentication\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\authentication\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Models\\LoginResponse.cs",
+              "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "BusinessApp\\Features\\Authentication\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:48:13.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "BusinessApp\\MauiProgram.cs",
+              "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\MauiProgram.cs",
+              "RelativeToolTip": "BusinessApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:47:01.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
+              "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "BusinessApp\\Features\\Authentication\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:29:22.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Services\\IAuthenticationService.cs",
+              "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "BusinessApp\\Features\\Authentication\\Services\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:25:58.787Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -6,10 +6,13 @@ public partial class BaseViewModel : ObservableObject
 {
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(IsNotBusy))]
+    [NotifyPropertyChangedFor(nameof(CanExecuteCommands))]
     private bool isBusy;
 
     [ObservableProperty]
     private string title = string.Empty;
 
     public bool IsNotBusy => !IsBusy;
+
+    public bool CanExecuteCommands => !IsBusy;
 }

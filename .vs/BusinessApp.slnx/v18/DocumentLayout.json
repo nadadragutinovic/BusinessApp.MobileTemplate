@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Apps and websites\\BusinessApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\authentication\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\common\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\common\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\dashboard\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\dashboard\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\common\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\common\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\authentication\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\dashboard\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|solutionrelative:businessapp\\features\\dashboard\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FADFA06-3DE0-AE6D-B11A-81EEFA3CF026}|BusinessApp\\BusinessApp.csproj|d:\\apps and websites\\businessapp\\businessapp\\features\\authentication\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Common\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "BusinessApp\\Common\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Common\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "BusinessApp\\Common\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T12:09:19.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DashboardPage.xaml",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Dashboard\\Views\\DashboardPage.xaml",
               "RelativeDocumentMoniker": "BusinessApp\\Features\\Dashboard\\Views\\DashboardPage.xaml",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "BusinessApp\\AppShell.xaml.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Views\\LoginPage.xaml.cs",
@@ -77,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "BusinessApp\\Features\\Authentication\\Views\\LoginPage.xaml",
               "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Features\\Authentication\\Views\\LoginPage.xaml",
               "RelativeToolTip": "BusinessApp\\Features\\Authentication\\Views\\LoginPage.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-07-03T10:17:56.755Z",
               "EditorCaption": ""
@@ -96,7 +113,7 @@
               "RelativeDocumentMoniker": "BusinessApp\\Common\\ViewModels\\LoginViewModel.cs",
               "ToolTip": "D:\\Apps and websites\\BusinessApp\\BusinessApp\\Common\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "BusinessApp\\Common\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowC0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-03T09:33:16.858Z",
               "EditorCaption": ""

@@ -3,6 +3,7 @@ using BusinessApp.Features.Dashboard.Views;
 using BusinessApp.ViewModels;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.ComponentModel;
 
 namespace BusinessApp.Features.Authentication.ViewModels
 {
@@ -17,13 +18,21 @@ namespace BusinessApp.Features.Authentication.ViewModels
         }
 
         [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(CanLogin))]
         public string userName = string.Empty;
+
         [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(CanLogin))]
         public string password = string.Empty;
+
         [ObservableProperty]
         public bool rememberMe = true;
 
-        
+        public bool CanLogin =>
+            !string.IsNullOrWhiteSpace(UserName) &&
+            !string.IsNullOrWhiteSpace(Password) &&
+            IsNotBusy;
+         
         [RelayCommand]
         private async Task LoginAsync()
         {
@@ -45,6 +54,15 @@ namespace BusinessApp.Features.Authentication.ViewModels
             finally
             {
                 IsBusy = false;
+            }
+        }
+
+        protected override void OnPropertyChanged(PropertyChangedEventArgs e)
+        {
+            base.OnPropertyChanged(e);
+            if(e.PropertyName == nameof(IsBusy))
+            {
+                OnPropertyChanged(nameof(CanLogin));
             }
         }
     }

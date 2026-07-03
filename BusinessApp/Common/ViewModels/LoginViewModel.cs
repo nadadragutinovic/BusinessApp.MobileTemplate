@@ -2,16 +2,18 @@ using BusinessApp.Features.Authentication.Services;
 using BusinessApp.ViewModels;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
-using System.Security.Principal;
-using System.Text;
 
 namespace BusinessApp.Features.Authentication.ViewModels
 {
     public partial class LoginViewModel : BaseViewModel
     {
         private readonly IAuthenticationService _authenticationService;
+        public LoginViewModel(IAuthenticationService authenticationService)
+        {
+            _authenticationService = authenticationService;
+
+            Title = "Login";
+        }
 
         [ObservableProperty]
         public string userName = string.Empty;
@@ -20,11 +22,7 @@ namespace BusinessApp.Features.Authentication.ViewModels
         [ObservableProperty]
         public bool rememberMe = true;
 
-        public LoginViewModel(IAuthenticationService authenticationService)
-        {
-            _authenticationService = authenticationService;
-        }
-
+        
         [RelayCommand]
         private async Task LoginAsync()
         {

@@ -5,6 +5,7 @@ namespace BusinessApp.ViewModels;
 public partial class BaseViewModel : ObservableObject
 {
     [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(IsNotBusy))]
     private bool isBusy;
 
     [ObservableProperty]

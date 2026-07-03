@@ -4,7 +4,9 @@ using System.Text;
 
 namespace BusinessApp.Infrastructure.Configuration
 {
-    internal class ApiConfiguration
+    public class ApiConfiguration
     {
+        public string BaseUrl { get; set; } = "";
+        public int TimeoutSecound { get; set; } = 30;
     }
 }

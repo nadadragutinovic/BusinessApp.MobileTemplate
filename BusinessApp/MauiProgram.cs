@@ -2,6 +2,7 @@ using BusinessApp.Features.Authentication.Services;
 using BusinessApp.Features.Authentication.ViewModels;
 using BusinessApp.Features.Authentication.Views;
 using BusinessApp.Features.Dashboard.Views;
+using BusinessApp.Infrastructure.Http;
 using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
@@ -28,6 +29,11 @@ namespace BusinessApp
             builder.Services.AddTransient<LoginPage>();
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<DashboardPage>();
+            builder.Services.AddHttpClient<IApiClient, ApiClient>(client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:7000/api/");
+                client.Timeout = TimeSpan.FromSeconds(30);
+            });
             return builder.Build();
         }
     }

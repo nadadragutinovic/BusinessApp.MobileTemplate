@@ -27,7 +27,6 @@ namespace BusinessApp
             builder.Services.AddSingleton<IAuthenticationService, AuthenticationService>();
             builder.Services.AddTransient<LoginPage>();
             builder.Services.AddTransient<LoginViewModel>();
-
             builder.Services.AddTransient<DashboardPage>();
             return builder.Build();
         }

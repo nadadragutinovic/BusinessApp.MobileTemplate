@@ -1,4 +1,5 @@
 using BusinessApp.Features.Authentication.Services;
+using BusinessApp.Features.Dashboard.Views;
 using BusinessApp.ViewModels;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -34,7 +35,7 @@ namespace BusinessApp.Features.Authentication.ViewModels
                 var success = await _authenticationService.LoginAsync(UserName, Password);
                 if (success)
                 {
-                    await Shell.Current.GoToAsync("//Dashboard");
+                    await Shell.Current.GoToAsync(nameof(DashboardPage));
                 }
                 else
                 {

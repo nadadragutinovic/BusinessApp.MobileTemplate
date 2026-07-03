@@ -7,7 +7,7 @@ namespace BusinessApp
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute("dashboard", typeof(DashboardPage));
+            Routing.RegisterRoute(nameof(DashboardPage), typeof(DashboardPage));
         }
     }
 }

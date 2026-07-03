@@ -84,11 +84,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Interfaces\" />
-	  <Folder Include="Configuration\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Features\Authentication\Views\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

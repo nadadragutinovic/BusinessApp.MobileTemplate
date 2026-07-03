@@ -11,12 +11,13 @@
         Padding="30">
 
         <VerticalStackLayout
+            Padding="30"
             VerticalOptions="Center"
             Spacing="20">
 
             <Label
                 Text="BusinessApp"
-                FontSize="32"
+                FontSize="30"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"/>
 
@@ -24,8 +25,33 @@
                 Text="Welcome back"
                 HorizontalOptions="Center"/>
 
-            <Button
-                Text="Sign In"/>
+            <Entry
+                Placeholder="Username"
+                Text="{Binding UserName}" />
+
+            <Entry
+                Placeholder="Password"
+                IsPassword="True"
+                Text="{Binding Password}" />
+            
+            <HorizontalStackLayout>
+               
+                <CheckBox 
+                    IsChecked="{Binding RememberMe}" />
+                <Label
+                    VerticalOptions="Center"
+                    Text="Remember me"/>
+                
+            </HorizontalStackLayout>
+            
+            <ActivityIndicator
+                IsRunning="{Binding IsBusy}"
+                IsVisible="{Binding IsBusy}" />
+            
+            <Button                 
+                Text="Sign In"
+                Command="{Binding LoginCommand}"
+                IsEnabled="{Binding IsNotBusy}" />
 
         </VerticalStackLayout>
 
